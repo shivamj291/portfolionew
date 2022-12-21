@@ -1,0 +1,21 @@
+#navbar{
+
+    display: flex;
+    justify-content: right;
+    background-color: black;
+    color: white;
+}
+#navbar a{
+    margin:20px
+}
+@media all and (max-width: 1100px) and (min-width:300px) {
+    /* Medium Screen Styles  */
+    #navbar{
+        justify-content: space-around;
+        padding:10px 0;
+    }
+    #navbar a{
+        margin:0px;
+        font-size: 10px;
+    }
+}
