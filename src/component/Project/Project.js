@@ -8,7 +8,7 @@ function Project(){
         
          <div class="pr">
             
-                            <img src="lovoda SSed.png"/>
+                            <img src="lovoda.gif"/>
                     <div id="lovoda_text">
                             <h1>Lovoda</h1>
                             <p>LOVODA® Accessories</p>
