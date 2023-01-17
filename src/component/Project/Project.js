@@ -30,7 +30,7 @@ function Project(){
                         <p> End all your business worries with IndiaMART</p>
                         <p> IndiaMART is India's largest online B2B marketplace, connecting buyers with suppliers.</p>
                     
-                        <a href="https://inquisitive-sfogliatella-5b3ac3.netlify.app/"><p>Check from here</p></a>
+                        <a href="https://astonishing-smakager-1c8cc9.netlify.app/"><p>Check from here</p></a>
                         
                 </div>
     
