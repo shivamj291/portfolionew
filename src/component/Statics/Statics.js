@@ -2,15 +2,11 @@ import "./Statics.css"
 function Static(){
     return(
         <div id="static"> 
-
-            <div> 
+           
                 <h1 style={{textDecoration:"underline"}}>Statics</h1>
+                <img src=" https://github-readme-streak-stats.herokuapp.com/?user=shivamj291&theme=dark&hide_border=false" id="staticimg" />
                 <img src="https://github-readme-stats.vercel.app/api?username=shivamj291&theme=dark&hide_border=false&include_all_commits=true&count_private=true" id="staticimg" />
-            </div>
-            <div> 
-                <h1 style={{textDecoration:"underline"}}>Statics</h1>
-                <img src=" https://github-readme-streak-stats.herokuapp.com/?user=shivamj291&theme=dark&hide_border=false" />
-            </div>
+         
            
         </div>
     )

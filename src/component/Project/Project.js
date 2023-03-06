@@ -8,8 +8,8 @@ function Project(){
         
          <div class="pr">
             
-                            <img src="lovoda.gif"/>
-                    <div id="lovoda_text">
+                            <img src="lovoda.gif" id="lovoda_img"/>
+                    <div class="text">
                             <h1>Lovoda</h1>
                             <p>LOVODA® Accessories</p>
                             <p> Jewelry/watches</p>
@@ -21,10 +21,8 @@ function Project(){
            </div>
            
           
-          <div class="pr">
-         
-            <img src="indiamartAnim.gif"/>
-                <div id="lovoda_text">
+          <div class="pr_ind">
+          <div class="indiamart_text">
                         <h1>Indiamart</h1>
                         <p>We connect Buyers & Sellers</p>
                         <p> End all your business worries with IndiaMART</p>
@@ -33,6 +31,9 @@ function Project(){
                         <a href="https://astonishing-smakager-1c8cc9.netlify.app/"><p>Check from here</p></a>
                         
                 </div>
+         
+            <img src="indiamartAnim.gif" id="indiamart_img"/>
+               
     
             </div>
           

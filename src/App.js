@@ -15,12 +15,18 @@ function App() {
       
       <Navbar/>
       <Front/>
+      <hr/>
       <About/>
+      <hr/>
       <Skill/>
+      <hr/>
       <Project/>
-      <Contribution/>
+      <hr/>
+      {/* <Contribution/> */}
       <Static/>
+      <hr/>
       <Contact/>
+      <hr/>
     </div>
 
   );

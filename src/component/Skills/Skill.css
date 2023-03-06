@@ -2,50 +2,58 @@
   width: 100px;
   height: 100px;
   margin: auto;
-
+}
+.skill_tool img{
+  width: 100px;
+  height: 100px;
+  margin: auto;
 }
 #skill img:hover{
-  border: 4px solid black;
-  background-color:black;
-
+ 
+  background-color:aliceblue;
 }
 #skill{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(4,1fr);
     gap:50px;
+}
+.skill_tool{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:50px;
+}
+
+#s{
+  margin-bottom: 80px;
 }
 #sh1{
   margin:40px auto;  
   text-decoration: underline;
 }
 #whole_Skill{
-  background-color: rgba(0, 128, 0, 0.437);
+  background-color: rgba(41, 50, 65, 0.707);
     width: 70%;
     margin: auto;
     padding:70px 0;
-    border-radius: 5%;
+   
 }
 #whole_Skill:hover{
-  background-color: rgba(0, 128, 0, 0.656);
+  background-color:rgba(41, 50, 65, 0.793)
 }
-@media all and (max-width: 1100px) and (min-width:300px) {
+
+@media all and (max-width: 600px) and (min-width:200px) {
   /* Medium Screen Styles  */
   #skill img{
     width: 50px;
     height: 50px;
     margin: auto;
-  
   }
-  #skill img:hover{
-    border: 4px solid black;
-    background-color:black;
-  
-  }
+ 
   #skill{
-      display: grid;
-      grid-template-columns: repeat(2,1fr);
-      gap:50px;
-  }
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:50px;
+}
   #whole_Skill{
       width: 100%;
       border-radius: 0;
@@ -53,7 +61,27 @@
   #whole_Skill h1{
     font-size: 10px;
   }
-  #whole_Skill:hover{
-    background-color: rgba(0, 128, 0, 0.656);
+  /* #whole_Skill:hover{
+    background-color:rgba(41, 50, 65, 0.793)
+  } */
+ }
+@media all and (max-width: 900px) and (min-width:300px) {
+  /* Medium Screen Styles  */
+  #skill img{
+    width: 50px;
+    height: 50px;
+    margin: auto;
   }
+ 
+  
+  #whole_Skill{
+      width: 100%;
+      border-radius: 0;
+  }
+  #whole_Skill h1{
+    font-size: 10px;
+  }
+  /* #whole_Skill:hover{
+    background-color:rgba(41, 50, 65, 0.793)
+  } */
  }

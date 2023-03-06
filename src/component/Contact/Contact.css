@@ -3,6 +3,7 @@
     background-color:black;
     color:white;
     padding:40px ;
+    margin-top: -40px;
 }
 #contact_Inner_div{
     margin:auto;
@@ -21,12 +22,13 @@
 
 #cont h3{
 text-align: center;
+margin:auto;
 font-size:20px
 }
 #contact_Inner_div{
     margin:auto;
  }
- @media all and (max-width: 900px) and (min-width:300px) {
+ @media all and (max-width: 900px) and (min-width:200px) {
    #contact{
       height: 190px;
       background-color:black;

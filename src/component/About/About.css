@@ -1,20 +1,19 @@
 #about{
      width: 70%;
     height: 450px;
-    background-color: rgba(0, 128, 0, 0.437);
+    background-color: rgba(41, 50, 65, 0.707);
     margin:5% auto;
+    color:rgba(0, 0, 0, 0.929)
 }
 #about:hover{
-    background-color: rgba(0, 128, 0, 0.656);
+    background-color:rgba(41, 50, 65, 0.793)
 }
 #about p{
    color:white ;
    font-size:18px;
    margin:20p
 }
-#about p:hover{
-    color:blue;
-}
+
 #img_obj{
     border-radius:50%;
     height: 200px;
@@ -26,12 +25,14 @@
 }
 #img_obj~h6{
     text-align: center;
+    margin:auto;
     font-size: 29px;
+    color:white ;
 }
 #obj{
  text-decoration: underline;
 }
-@media all and (max-width: 900px) and (min-width:300px) {
+@media all and (max-width: 900px) and (min-width:200px) {
     /* Medium Screen Styles  */
     #about{
         width: 100%;
