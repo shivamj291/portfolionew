@@ -2,23 +2,17 @@
     height: 200px;
     margin-left: 100px;
 }
-#static #graph{
-    height: 200px;
-}
+
 #static{
 display: grid;
 grid-template-columns: repeat(2,1fr);
-gap:30px;
+
 margin: 80px;
   
 }
 
 @media all and (max-width: 1200px) and (min-width:900px) {
-    /* Medium Screen Styles  */
-    
-        /* #static{
-        display: block
-        } */
+   
         #static #staticimg{
 
             width: 80%;
@@ -26,7 +20,7 @@ margin: 80px;
             margin-left: 0px;
             margin-bottom: 30px;
            
-        }
+        } 
        
    
    }
