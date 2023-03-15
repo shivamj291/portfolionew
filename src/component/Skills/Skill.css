@@ -17,14 +17,12 @@
     grid-template-columns: repeat(4,1fr);
     gap:50px;
 }
-.skill_tool{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap:50px;
-}
+
 
 #s{
-  margin-bottom: 80px;
+
+    padding: 0 0 100px 0px;
+ 
 }
 #sh1{
   margin:40px auto;  

@@ -1,4 +1,10 @@
+import About from "../About/About"
+import Contact from "../Contact/Contact"
+import Project from "../Project/Project"
+import Skill from "../Skills/Skill"
+import Static from "../Statics/Statics"
 import "./Front.css"
+
 function Front(){
     return(
         <div id="Front">
@@ -25,7 +31,6 @@ function Front(){
             <div id="image">
                   <img src="shivam.jpg"/>
             </div>
-            
         </div>
     )
 }

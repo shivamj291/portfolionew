@@ -3,7 +3,11 @@
     height: 450px;
     background-color: rgba(41, 50, 65, 0.707);
     margin:5% auto;
+    
     color:rgba(0, 0, 0, 0.929)
+}
+#whole_about{
+   padding: 0 0 10px 0px;
 }
 #about:hover{
     background-color:rgba(41, 50, 65, 0.793)

@@ -3,7 +3,7 @@ function About(){
     
    
     return(
-        <div  >
+        <div id="whole_about"  >
         
               <h1 id="obj">About Me</h1>
               <div id="about">
