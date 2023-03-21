@@ -1,0 +1,53 @@
+#contact{
+  width:70%;
+  height: 400px;
+  background-color: black;
+  margin: 80px 50px 50px 50px;
+}
+#profile{
+    width: 30%;
+}
+#ContactP{
+    
+    display: flex;
+}
+
+@media all and (max-width: 1200px) and (min-width:200px) {
+   
+    #ContactP{
+        display: block;
+       
+    }
+    #contact{
+        width: 70%;
+    
+        margin:50px auto;
+        margin-bottom: 0;
+    
+    }
+    #profile{
+        width: 100%;
+
+    }
+
+}
+
+@media all and (max-width: 1500px) and (min-width:1200px) {
+   
+    #ContactP{
+        display: block;
+       
+    }
+    #contact{
+        width: 70%;
+        height:480px;
+        margin:50px auto;
+        margin-bottom: 0;
+    
+    }
+    #profile{
+        width: 100%;
+
+    }
+
+}

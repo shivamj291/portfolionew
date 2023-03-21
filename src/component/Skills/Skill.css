@@ -2,41 +2,56 @@
   width: 100px;
   height: 100px;
   margin: auto;
+ 
+ align-items: center;
 }
 .skill_tool img{
   width: 100px;
   height: 100px;
   margin: auto;
 }
-#skill img:hover{
- 
-  background-color:aliceblue;
-}
+
 #skill{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap:50px;
+
 }
 
 
 #s{
-
     padding: 0 0 100px 0px;
- 
-}
+    background-color: royalblue;
+    margin-top:-21px
+ }
 #sh1{
-  margin:40px auto;  
   text-decoration: underline;
+  padding:30px
 }
 #whole_Skill{
-  background-color: rgba(41, 50, 65, 0.707);
     width: 70%;
     margin: auto;
-    padding:70px 0;
-   
+    border-radius: 2%;
+}
+.round{
+ 
+ background-color:rgb(0,201,255);
+ padding: 10%;
+ border-radius: 10%;
+ transition-property: all;
+ transition-duration: 2s;
+ box-shadow: 0 0 50px royalblue;
+
+}
+.round:hover{
+  background-color: rgb(0,201,255);
+  box-shadow: 0 0 20px white;
+  border-radius: 50%;
+ 
+
+  transform: rotate(360deg);
 }
 #whole_Skill:hover{
-  background-color:rgba(41, 50, 65, 0.793)
+  background-color: rgb(32, 71, 187);
 }
 
 @media all and (max-width: 600px) and (min-width:200px) {
@@ -50,6 +65,7 @@
   #skill{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    width: 98%;
     gap:50px;
 }
   #whole_Skill{

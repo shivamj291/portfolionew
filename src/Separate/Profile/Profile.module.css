@@ -1,0 +1,51 @@
+#Profile{
+    
+    background-image: url(https://st.depositphotos.com/3008028/4643/i/450/depositphotos_46434211-stock-photo-royal-blue-background.jpg);
+    height: 100%;
+}
+#pimg{
+    
+    margin-top: 100px;
+    width: 250px;
+    height: 350px;
+    box-shadow: 0 0 50px rosybrown;
+    border-radius: 20px;
+}
+@media all and (max-width: 1200px) and (min-width:200px) {
+   
+    #AboutP{
+        display: block;
+       
+    }
+    #about{
+        width: 100%;
+    }
+    #pimg{
+    
+        margin-top: 100px;
+        width: 100px;
+        height: 150px;
+        box-shadow: 0 0 50px rosybrown;
+        border-radius: 20px;
+    }
+
+}
+@media all and (max-width: 1500px) and (min-width:1200px) {
+   
+    #AboutP{
+        display: block;
+       
+    }
+    #about{
+        width: 100%;
+    }
+    #pimg{
+    
+        margin-top: 100px;
+        width: 100px;
+        height: 150px;
+        box-shadow: 0 0 50px rosybrown;
+        border-radius: 20px;
+    }
+
+}

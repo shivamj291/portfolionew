@@ -1,23 +1,23 @@
-import About from "../component/About/About";
+
 import { Route,Routes } from "react-router-dom";
 import Contact from "../component/Contact/Contact";
-import Front from "../component/Front/Front";
-import Navbar from "../component/navbar/navbar";
-import Project from "../component/Project/Project";
-import Skill from "../component/Skills/Skill";
-import Static from "../component/Statics/Statics";
 import Home from "../component/Home/Home";
+import AboutP from "../Separate/AboutP/AboutP.jsx";
+import SkillsP from "../Separate/SkillsP/SkillsP";
+import ProjectP from "../Separate/ProjectP/ProjextP";
+import StaticP from "../Separate/StaticP/StaticP";
+import ContactP from "../Separate/Contact/ContactP";
 function Router(){
     return (
         <div>
             <Routes>
                 <Route path="/" element={<Home/>}/>
-                <Route path="/about" element={<About/>}/>
-                <Route path="/contact" element={<Contact/>}/>
-                <Route path="/project" element={<Project/>}/>
-                <Route path="/skill" element={<Skill/>}/>
-                <Route path="/static" element={<Static/>}/>
-                <Route path="/contact" element={<Contact/>}/>
+                <Route path="/about" element={<AboutP/>}/>
+               
+                <Route path="/project" element={<ProjectP/>}/>
+                <Route path="/skill" element={<SkillsP/>}/>
+                <Route path="/static" element={<StaticP/>}/>
+                <Route path="/contact" element={<ContactP/>}/>
             </Routes>
         </div>
     )

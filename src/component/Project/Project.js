@@ -7,8 +7,13 @@ function Project(){
             <h1 id="pheading" style={{textDecoration:"underline" }}>Project</h1>
         
          <div class="pr">
-            
-                            <img src="lovoda.gif" id="lovoda_img"/>
+             <div id="outer_lovoda">
+                <div id="inner_lovoda">
+                    <img src="lovoda.gif" id="lovoda_img"/>
+                </div>
+               
+             </div>
+                          
                     <div class="text">
                             <h1>Lovoda</h1>
                             <p>LOVODA® Accessories</p>
@@ -33,8 +38,13 @@ function Project(){
                         <a href="https://github.com/shivamj291/IndiaMart-Clone"><p>Git Link</p></a>
                         
                 </div>
-         
-            <img src="indiamartAnim.gif" id="indiamart_img"/>
+                <div id="outer_indiaMart">
+                    <div id="inner_indiaMart">
+                       <img src="indiamartAnim.gif" id="indiamart_img"/>
+                    </div>
+                   
+                </div>
+           
                
     
             </div>
