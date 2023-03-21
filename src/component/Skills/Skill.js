@@ -30,7 +30,7 @@ function Skill(){
 
 
                 <div className="round">
-                <img src="mongologo"/>
+                <img src="mongoLogo"/>
               
                 </div>
 
