@@ -11,7 +11,7 @@
     box-shadow: 0 0 50px rosybrown;
     border-radius: 20px;
 }
-@media all and (max-width: 1200px) and (min-width:200px) {
+@media all and (max-width: 900px) and (min-width:200px) {
    
     #AboutP{
         display: block;
@@ -30,7 +30,7 @@
     }
 
 }
-@media all and (max-width: 1500px) and (min-width:1200px) {
+@media all and (max-width: 1200px) and (min-width:900px) {
    
     #AboutP{
         display: block;

@@ -9,7 +9,7 @@
     width: 30%;
 }
 
-@media all and (max-width: 1200px) and (min-width:200px) {
+@media all and (max-width: 900px) and (min-width:200px) {
    
     #ProjectP{
         display: block;
@@ -24,7 +24,7 @@
     }
 
 }
-@media all and (max-width: 1500px) and (min-width:1200px) {
+@media all and (max-width: 1200px) and (min-width:900px) {
    
     #ProjectP{
         display: block;
