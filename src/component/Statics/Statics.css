@@ -29,8 +29,9 @@
 #static{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin: 80px;
+    margin: 80px 80px 0 80px;
     padding: 0 0 100px 0px;
+    gap:5px
   
 }
 

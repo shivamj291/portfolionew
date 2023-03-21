@@ -10,6 +10,8 @@
 #ContactP{
     
     display: flex;
+    background-image: url(https://st.depositphotos.com/3008028/4643/i/450/depositphotos_46434211-stock-photo-royal-blue-background.jpg);
+   
 }
 
 @media all and (max-width: 900px) and (min-width:200px) {
@@ -21,7 +23,7 @@
     #contact{
         width: 70%;
     
-        margin:50px auto;
+ 
         margin-bottom: 0;
     
     }
@@ -40,8 +42,8 @@
     }
     #contact{
         width: 70%;
-        height:480px;
-        margin:50px auto;
+   
+  
         margin-bottom: 0;
     
     }

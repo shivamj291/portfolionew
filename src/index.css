@@ -5,7 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(255, 228, 196, 0.126)
+  background-color: rgba(255, 228, 196, 0.126);
+  background-image: url(https://st.depositphotos.com/3008028/4643/i/450/depositphotos_46434211-stock-photo-royal-blue-background.jpg);
+
 }
 
 code {
