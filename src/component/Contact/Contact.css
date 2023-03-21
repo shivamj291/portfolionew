@@ -1,6 +1,6 @@
 #contact{
     height: 290px;
-    background-color:black;
+   background-color:rgb(13, 174, 219);
     color:white;
     padding:40px ;
     margin-top: -40px;
@@ -31,7 +31,6 @@ font-size:20px
  @media all and (max-width: 900px) and (min-width:200px) {
    #contact{
       height: 190px;
-      background-color:black;
       color:white;
       padding:10px;
   }
