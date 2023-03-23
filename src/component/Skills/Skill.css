@@ -14,6 +14,7 @@
 #skill{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    
 
 }
 
@@ -21,16 +22,22 @@
 #s{
     padding: 0 0 100px 0px;
     
-    margin-top:-21px
+    margin-top:-21px;
+    
+    
+
  }
 #sh1{
   text-decoration: underline;
-  padding:30px
+  padding:30px;
+  
+  
 }
 #whole_Skill{
     width: 70%;
     margin: auto;
     border-radius: 2%;
+    
 }
 .round{
  
@@ -50,9 +57,7 @@
 
   transform: rotate(360deg);
 }
-#whole_Skill:hover{
-  background-color: rgb(32, 71, 187);
-}
+
 
 @media all and (max-width: 600px) and (min-width:200px) {
   /* Medium Screen Styles  */
@@ -66,8 +71,10 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     width: 98%;
-    gap:50px;
-}
+  }
+  .round{
+    margin: 20px;
+  }
   #whole_Skill{
       width: 100%;
       border-radius: 0;
@@ -99,3 +106,4 @@
     background-color:rgba(41, 50, 65, 0.793)
   } */
  }
+ 

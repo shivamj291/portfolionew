@@ -1,20 +1,36 @@
 import "./Project.css"
-function Project(){
+
+
+import AOS from "aos"
+import "aos/dist/aos.css"
+import {useEffect, useState} from "react"
+
    
+  
+ 
+function Project(){
+
+     
+    useEffect(()=>{
+        AOS.init({duration:500,offset:300})
+       
+     },[])
+   
+    
     return(
         <div id="project">
               
             <h1 id="pheading" style={{textDecoration:"underline" }}>Project</h1>
         
-         <div class="pr">
-             <div id="outer_lovoda">
+         <div class="pr"  data-AOS="fade-up">
+             <div id="outer_lovoda" >
                 <div id="inner_lovoda">
                     <img src="lovoda.gif" id="lovoda_img"/>
                 </div>
                
              </div>
                           
-                    <div class="text">
+                    <div class="text" >
                             <h1>Lovoda</h1>
                             <p>LOVODA® Accessories</p>
                             <p> Jewelry/watches</p>
@@ -27,8 +43,8 @@ function Project(){
            </div>
            
           
-          <div class="pr_ind">
-          <div class="indiamart_text">
+          <div class="pr_ind"  data-AOS="fade-up" >
+          <div class="indiamart_text" >
                         <h1>Indiamart</h1>
                         <p>We connect Buyers & Sellers</p>
                         <p> End all your business worries with IndiaMART</p>
@@ -38,7 +54,7 @@ function Project(){
                         <a href="https://github.com/shivamj291/IndiaMart-Clone"><p>Git Link</p></a>
                         
                 </div>
-                <div id="outer_indiaMart">
+                <div id="outer_indiaMart" >
                     <div id="inner_indiaMart">
                        <img src="indiamartAnim.gif" id="indiamart_img"/>
                     </div>

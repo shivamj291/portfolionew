@@ -7,9 +7,10 @@ import SkillsP from "../Separate/SkillsP/SkillsP";
 import ProjectP from "../Separate/ProjectP/ProjextP";
 import StaticP from "../Separate/StaticP/StaticP";
 import ContactP from "../Separate/Contact/ContactP";
+import "./Routes.css"
 function Router(){
     return (
-        <div>
+        <div id = "route">
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/about" element={<AboutP/>}/>

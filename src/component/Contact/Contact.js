@@ -1,7 +1,14 @@
 import "./Contact.css"
+import { useEffect } from "react"
+import AOS from "aos"
+import "aos/dist/aos.css"
 function Contact(){
+    useEffect(()=>{
+        AOS.init({duration:500,offset:200})
+    },[])
+    
     return(
-        <div id="contact">
+        <div id="contact"  data-aos="fade-up">
             <div id="contact_Inner_div">
                 
                 <p>Contact Me</p>

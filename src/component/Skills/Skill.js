@@ -1,12 +1,21 @@
 import "./Skill.css"
+import AOS from "aos"
+import "aos/dist/aos.css"
+import {useEffect} from "react"
+
 function Skill(){
+    
+    useEffect(()=>{
+        AOS.init({duration:500,offset:300})
+       
+     },[])
     return(
         <div id="s">
         <h1 id="sh1"> Skills</h1>
         <div id="whole_Skill">
 
          
-             <div id="skill">
+             <div id="skill" data-AOS="fade-up">
                     
              <div className="round">
              <img src="javaLogo"/>

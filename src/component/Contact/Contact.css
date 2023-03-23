@@ -1,9 +1,11 @@
 #contact{
     height: 290px;
-   background-color:rgb(13, 174, 219);
+    background-color:rgb(13, 174, 219);
     color:white;
     padding:40px ;
     margin-top: -40px;
+    
+    
 }
 #contact_Inner_div{
     margin:auto;
